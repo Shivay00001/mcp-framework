@@ -1,0 +1,16 @@
+services:
+  mcp-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - MASTER_KEY=prod-secret-key-12345
+      - DEBUG=True
+    volumes:
+      - ./src:/app/src
+    restart: always
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
