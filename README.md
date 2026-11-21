@@ -1,5 +1,7 @@
 # MCP Framework
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 A production-grade Multi-Platform Connector Platform (MCP) built with Python and FastAPI.
 
 ## Features
